@@ -1,0 +1,18 @@
+{% extends "cal/base.html" %}
+
+{% block content %}
+  <form action="post">
+      {% csrf_token %}
+      <table class='form form-table'>
+        {{form}}
+        <tr>
+          <td colspan="2">
+            <button type="submit" class="btn btn-success right">New</button>
+          </td>
+          <td>
+            <a class="btn btn-danger right" href="{% url 'calendar' %}">Cancel</a>
+          </td>
+        </tr>
+      </table>
+  </form>
+{% endblock content %}

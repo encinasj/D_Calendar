@@ -17,11 +17,11 @@ body {
   color: black;
   background-color: transparent;
   box-shadow: 0 0 0 0;
-  margin-right: 3px;
+  margin-right: 1px;
 }
 
 .clearfix {
-  margin: 15px;
+  margin: 5px;
 }
 
 .form {
